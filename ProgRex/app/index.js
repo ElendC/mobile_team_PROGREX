@@ -1,7 +1,20 @@
-import { Text } from 'react-native';
-import { Link } from 'expo-router';
+import { Text, View, Pressable } from 'react-native';
+import { Link, Tabs } from 'expo-router';
 
 export default function Page(){
     return (
-    <Link href='/someroute[slug]'>testlink</Link>
+    <View>
+        <Link href='/someroute[slug]'>testlink</Link>
+
+        <Link href='/about' asChild> 
+        <Pressable> 
+            <Text>lodsfdfdfdffsdl</Text> 
+        </Pressable> 
+        </Link>
+
+
+    
+
+    </View>
+
     )}
