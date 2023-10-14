@@ -43,7 +43,8 @@
     )}
     # This way, the component can be used many times with different titles defined in the export default
 
-
+3. # Check zExample folder for a quick tutorial
+ 
 
 
 
