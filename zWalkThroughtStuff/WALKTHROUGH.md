@@ -44,9 +44,56 @@
     # This way, the component can be used many times with different titles defined in the export default
 
 3. # Check zExample folder for a quick tutorial
- 
+
+
+4. # PROJECT STRUCTURE
+MyApp
+├── components
+│   ├── buttons
+│   │   ├── RoundButton.js
+│   │   └── SquareButton.js
+│   ├── cards
+│   │   ├── ArticleCard.js
+│   │   ├── ImageCard.js
+│   │   └── VideoCard.js
+│   ├── Avatar.js
+│   └── List.js
+├── screens
+│   ├── Feed.js
+│   ├── Search.js
+│   ├── Post.js
+│   ├── Reply.js
+│   ├── Profile.js
+│   └── Settings.js
+├── navigation
+│   ├── RootStackNavigator.js
+│   └── ProfileTabNavigator.js
+└── App.js
 
 
 
 here now: 
 https://www.reactnative.express/react/user_input
+
+
+
+<Image
+    source ={pushup}
+    style={{ width: 150, height: 140, position: 'relative', top: -100, right: 100 }} // adjust dimensions accordingly
+    />
+
+            <Text>Select</Text>
+
+
+
+
+ <TouchableOpacity onPress={() => navigation.navigate('Second Page')}>
+        <Text>This is the main page</Text>
+        </TouchableOpacity>
+        
+        <Button
+        title="Go to Screen2"
+        onPress={() => {
+          navigation.push('Second Page', { paramA: 'Hello!' })
+        }}
+      />

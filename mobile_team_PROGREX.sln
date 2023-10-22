@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "progRex", "progRex", "{4E425E98-9920-4D93-9595-876D6CF7761F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{C14CF479-D2F4-4405-9D2A-5D283D4EF65B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgRexBackend", "progRex\Backend\ProgRexBackend\ProgRexBackend.csproj", "{364A89FA-2972-4A5C-9DCD-465612A86936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{364A89FA-2972-4A5C-9DCD-465612A86936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364A89FA-2972-4A5C-9DCD-465612A86936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364A89FA-2972-4A5C-9DCD-465612A86936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364A89FA-2972-4A5C-9DCD-465612A86936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C14CF479-D2F4-4405-9D2A-5D283D4EF65B} = {4E425E98-9920-4D93-9595-876D6CF7761F}
+		{364A89FA-2972-4A5C-9DCD-465612A86936} = {C14CF479-D2F4-4405-9D2A-5D283D4EF65B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86FD61C1-DB78-4EE8-81F9-59BEA44BA1BD}
+	EndGlobalSection
+EndGlobal
